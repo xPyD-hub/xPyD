@@ -1,7 +1,0 @@
-README.md
-pyproject.toml
-xpyd.egg-info/PKG-INFO
-xpyd.egg-info/SOURCES.txt
-xpyd.egg-info/dependency_links.txt
-xpyd.egg-info/requires.txt
-xpyd.egg-info/top_level.txt
