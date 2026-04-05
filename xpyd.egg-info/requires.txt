@@ -1,0 +1,2 @@
+xpyd-proxy>=1.2.0
+xpyd-sim>=0.2.0
