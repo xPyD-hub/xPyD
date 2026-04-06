@@ -4,12 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "xpyd"
-version = "1.3.0"
-description = "xPyD: Lightweight PD-disaggregated LLM serving toolkit (proxy + sim + bench)"
+version = "1.4.0"
+description = "xPyD: Lightweight PD-disaggregated LLM serving toolkit"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "xpyd-proxy>=1.2.0",
-    "xpyd-sim>=0.4.0",
-    "xpyd-bench>=0.2.0",
+    "xpyd-proxy>=1.3.0",
+    "xpyd-sim>=0.5.0",
+    "xpyd-bench>=0.3.0",
+    "xpyd-acc>=0.1.0",
+    "xpyd-plan>=0.1.0",
 ]

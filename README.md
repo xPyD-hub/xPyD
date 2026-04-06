@@ -10,10 +10,18 @@ This installs:
 - **xpyd-proxy** — Lightweight Prefill-Decode proxy for disaggregated LLM serving
 - **xpyd-sim** — OpenAI-compatible LLM inference simulator
 - **xpyd-bench** — Benchmarking & PD ratio planning tool
+- **xpyd-acc** — PD disaggregation accuracy diagnostic tool
+- **xpyd-plan** — PD ratio planner for optimal node allocation
 
 Individual packages can also be installed separately:
 ```bash
 pip install xpyd-proxy  # proxy only
 pip install xpyd-sim    # simulator only
 pip install xpyd-bench  # benchmark only
+pip install xpyd-acc    # accuracy diagnostic only
+pip install xpyd-plan   # ratio planner only
 ```
+
+## License
+
+Apache 2.0
