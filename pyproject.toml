@@ -4,11 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "xpyd"
-version = "1.2.0"
-description = "xPyD: Lightweight Prefill-Decode disaggregated LLM serving toolkit"
+version = "1.3.0"
+description = "xPyD: Lightweight PD-disaggregated LLM serving toolkit (proxy + sim + bench)"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "xpyd-proxy>=1.2.0",
-    "xpyd-sim>=0.3.0",
+    "xpyd-sim>=0.4.0",
+    "xpyd-bench>=0.2.0",
 ]
